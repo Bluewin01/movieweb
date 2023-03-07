@@ -1,0 +1,44 @@
+.box {
+    border-style: solid;
+    padding: 5px 5px 5px 5px;
+    margin-right: 1000px;
+    margin-bottom: 25px;
+}
+
+#movie-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.movie {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.movie img {
+    width: 300px;
+    height: 450px;
+}
+
+.movie h2 {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.movie p {
+    margin: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.movie p.popularity {
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
